@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* HEADER */
+#header {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+}
+
+#header h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+#header p {
+    font-size: 13px;
+    color: #888;
+}
+
+/* NAVBAR */
+#nav {
+    background-color: #2a2a2a;
+    padding: 10px 20px;
+    display: flex;
+    gap: 5px;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 13px;
+}
+
+#nav a:hover {
+    background-color: #888;
+}
+
+#nav a.direita {
+    margin-left: auto;
+}
+
+/* MEIO */
+#meio {
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* COLUNA ESQUERDA */
+#esquerda {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.artigo {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.artigo h2 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.artigo .data {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.artigo .some {
+    margin: 10px 0 5px;
+    font-size: 13px;
+}
+
+.artigo p {
+    font-size: 13px;
+    color: #555;
+}
+
+/* COLUNA DIREITA */
+#direita {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.widget {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+.widget h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.widget p {
+    font-size: 13px;
+    color: #555;
+    margin-top: 8px;
+}
+
+/* IMAGENS PLACEHOLDER */
+.imagem {
+    background-color: #aaa;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+/* FOOTER */
+#footer {
+    background-color: white;
+    border-top: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
